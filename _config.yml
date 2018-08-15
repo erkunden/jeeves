@@ -1,0 +1,32 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Jeeves
+tagline:             Jekyll Website Toolkit
+url:                 http://getjeeves.ml
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Zack Pace
+  url:               https://twitter.com/pixelswamp
+  email:             uiysgamer@gmail.com
+
+# Custom vars
+version:             1.0.0
+github:
+  repo:              https://github.com/RevelMind/jeeves
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
